@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidades/Mapa</title>
+  <link rel="stylesheet" href="css/unidades.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+  <section id="unidades-localização">
+    <div class="container">
+      <div class="unidades-localizacao__conteudo" id="tabs">
+        <div class="localizacao__texto">
+          <ul>
+            <li><a href="#mapa-sao-joao"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo"> São João de Meriti</h3>
+              </a>
+            </li>
+
+            <li>
+              <a id="link-guadalupe" href="#mapa-guadalupe"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo">Guadalupe</h3>
+              </a>
+            </li>
+
+            <li>
+              <a id="link-vista-alegre" href="#mapa-vista-alegre"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo">Vista Alegre</h3>
+              </a>
+            </li>
+
+            <li>
+              <a id="link-jardim-botanico" href="#mapa-jd-botanico"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo">Jardim Botânico</h3>
+              </a>
+            </li>
+
+            <li>
+              <a id="link-centro" href="#mapa-centro"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo">Centro</h3>
+              </a>
+            </li>
+
+            <li>
+              <a id="link-largo-machado" href="#mapa-largo-machado"><svg id="lugar-colocar" xmlns="http://www.w3.org/2000/svg" width="25" height="32.317" viewBox="0 0 31 38.317">
+                  <g id="Grupo_227" data-name="Grupo 227">
+                    <g id="Grupo_226" data-name="Grupo 226" transform="translate(0)">
+                      <path id="Caminho_4877" data-name="Caminho 4877" d="M77.1,6.662a15.471,15.471,0,0,0-25.437,0,15.474,15.474,0,0,0-1.8,14.256,12.186,12.186,0,0,0,2.246,3.708L63.366,37.846a1.339,1.339,0,0,0,2.04,0L76.657,24.63a12.2,12.2,0,0,0,2.245-3.7A15.476,15.476,0,0,0,77.1,6.662Zm-.711,13.327a9.557,9.557,0,0,1-1.767,2.895l-.006.007L64.386,34.911,54.146,22.883a9.563,9.563,0,0,1-1.77-2.9,12.8,12.8,0,0,1,1.5-11.794,12.791,12.791,0,0,1,21.028,0A12.8,12.8,0,0,1,76.394,19.989Z" transform="translate(-48.886)" fill="#ff7615" />
+                    </g>
+                  </g>
+                  <g id="Grupo_229" data-name="Grupo 229" transform="translate(7.998 7.949)">
+                    <g id="Grupo_228" data-name="Grupo 228" transform="translate(0)">
+                      <path id="Caminho_4878" data-name="Caminho 4878" d="M163.257,106.219a7.5,7.5,0,1,0,7.5,7.5A7.511,7.511,0,0,0,163.257,106.219Zm0,12.326a4.823,4.823,0,1,1,4.823-4.823A4.829,4.829,0,0,1,163.257,118.545Z" transform="translate(-155.754 -106.219)" fill="#ff7615" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="localizacao__texto-titulo">Largo do Machado</h3>
+              </a>
+            </li>
+        </div>
+
+        <div class="localizacao-mapas-home">
+
+          <div id="mapa-sao-joao" class="unidades-localizacao__img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.9579899017917!2d-43.369588985036394!3d-22.804020485064115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9964f54c260047%3A0x4df6858644fea18d!2sAv.%20Autom%C3%B3vel%20Clube%2C%2063%20-%20Centro%2C%20S%C3%A3o%20Jo%C3%A3o%20de%20Meriti%20-%20RJ%2C%2025515-520!5e0!3m2!1spt-BR!2sbr!4v1637607335298!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+          <div id="mapa-guadalupe" class="unidades-localizacao__img"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.042834826765!2d-43.38202438503565!3d-22.837904685046954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996397d6a7678d%3A0xd4176b1f5b4b757e!2sR.%20Marcos%20de%20Macedo%2C%20761%20-%20Guadalupe%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021660-030!5e0!3m2!1spt-BR!2sbr!4v1637607401419!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+          <div id="mapa-vista-alegre" class="unidades-localizacao__img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.286204085154!2d-43.31710448946627!3d-22.82889842967595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b44fb5547e7%3A0x20c7ba4980e3eef!2sR.%20Santa%20Luz%2C%20210%20-%20Vista%20Alegre%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021230-760!5e0!3m2!1spt-BR!2sbr!4v1638199400235!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+          <div id="mapa-jd-botanico" class="unidades-localizacao__img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.6007409606163!2d-43.22001108503319!3d-22.96492668498238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd59eafcbae07%3A0xdadca6b7bbdefa2c!2sR.%20Jardim%20Bot%C3%A2nico%2C%20657%20-%20Sala%20625%20-%20Jardim%20Bot%C3%A2nico%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022470-050!5e0!3m2!1spt-BR!2sbr!4v1637607434787!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+          <div id="mapa-centro" class="unidades-localizacao__img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.0734162670688!2d-43.1788166855331!3d-22.910662785009784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6184bef635%3A0x67dcd4d0515d49b9!2sR.%20Alcindo%20Guanabara%2C%2015%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020031-130!5e0!3m2!1spt-BR!2sbr!4v1638199270456!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+          <div id="mapa-largo-machado" class="unidades-localizacao__img"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.506568742255!2d-43.180121085532626!3d-22.93156388499928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f86e79d7683%3A0x979ea6febeef2b95!2sR.%20do%20Catete%2C%20311%20-%20Catete%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022220-001!5e0!3m2!1spt-BR!2sbr!4v1638199905426!5m2!1spt-BR!2sbr" width="600" height="342" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/mapa.js"></script>
+</body>
+
+</html>

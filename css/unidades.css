@@ -1,0 +1,117 @@
+body {
+    background-color: #38613e;
+}
+
+#unidades-localização {
+    background-color: #fff;
+    padding: 50px 0px;
+}
+
+.unidades-localizacao__conteudo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.localizacao-mapas-home {
+    align-items: center;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px) {
+    li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+        width: 300px;
+    }
+}
+
+.localizacao__texto-titulo {
+    font-family: "Poppins"sans-serif;
+    color: #284f2e;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+
+.localizacao__texto a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    flex-direction: column;
+    display: flex;
+    background: transparent;
+    border: none;
+}
+
+li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab {
+    border: none;
+    background: transparent;
+}
+
+div#tabs {
+    border: none;
+}
+
+li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+    border-radius: 50px;
+    background: #38613e;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active h3 {
+    color: #FFF;
+}
+
+.unidades-localizacao__img iframe {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .localizacao-mapas-home {
+        width: 100%;
+    }
+
+    div#tabs {
+        flex-direction: column;
+    }
+
+    .unidades-localizacao__img.ui-tabs-panel {
+        padding: 0 15px !important;
+    }
+
+
+    li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab {
+        height: 50px;
+        display: flex;
+    }
+
+    div#mapa-sao-joao {
+        width: 100%;
+    }
+
+    .unidades-localizacao__img iframe {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+
+    }
+
+    #unidades-localização {
+        background-color: #fff;
+        padding: 30px 0px;
+    }
+
+}
